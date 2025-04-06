@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "socket-server.js",
+  "type": "module",  
+  "scripts": {
+    "start": "tsc && node dist/socket-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ws": "^8.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.485.0",
+    "typescript": "^5.8.2",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
