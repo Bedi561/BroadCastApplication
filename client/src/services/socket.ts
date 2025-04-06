@@ -63,7 +63,8 @@
 
 let socket: WebSocket | null = null;
 
-const wsUrl = 'ws://localhost:8080';
+// const wsUrl = 'ws://localhost:8080';
+const wsUrl = 'wss://broadcastsocket.onrender.com';
 
 export const initializeSocket = (): WebSocket => {
   if (socket && socket.readyState === WebSocket.OPEN) {
